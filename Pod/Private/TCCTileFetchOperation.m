@@ -70,7 +70,6 @@
                                                        configuration:_tile.configuration
                                                    returningResponse:&response
                                                                error:&error];
-
         
         if ([self isCancelled]) return;
         
